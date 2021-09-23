@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Suisse';
-    src: url("{% static 'suisseintlcond-regular-webfont.woff' %}");
+    src: url("{% static 'fonts/suisseintlcond-regular-webfont.woff' %}");
   }   
 
 a:-webkit-any-link {text-decoration: none;}
