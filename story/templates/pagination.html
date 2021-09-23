@@ -1,0 +1,15 @@
+<div class="pagination">
+    <span class="">
+    {% if page.has_previous %}
+    <a href="?page={{ page.previous_page_number }}">이전</a>
+    {% endif %}
+
+    <span style="font-size: 0.9em; padding-top: 0.15em; font-weight: 100;">
+    {{ page.number }} / {{ page.paginator.num_pages }}
+    </span>
+
+    {% if page.has_next %}
+    <a href="?page={{ page.next_page_number }}">다음</a>
+    {% endif %}
+    </span>
+</div>
