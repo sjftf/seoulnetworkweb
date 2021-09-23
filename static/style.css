@@ -7,6 +7,7 @@ a:-webkit-any-link {text-decoration: none;}
 p {line-height: 1.5em;}
 .pagination a {font-size: 0.8em; color:black; font-weight: 100;}
 h2{
+    line-height: 1.6em;
     font-size: 1em;
     font-weight: 700;
     color: black;
@@ -74,7 +75,7 @@ ul {padding-inline-start: 0px;
     background-color: #F5B051;
     margin: 0px -10px 20px -10px;
     padding: 10px 10px;
-
+    line-height: 1.6em;
 }
 .thumbnail{
     padding-bottom: 5px;
@@ -116,6 +117,7 @@ ul {padding-inline-start: 0px;
 }
 a#tag_activists {
     margin-left: -4px;
+    line-height: 1.6em;
     background: white url("img/activists.svg") no-repeat;
     background-size: contain;
     background-position: center;
@@ -123,6 +125,7 @@ a#tag_activists {
 }
 a#tag_spielraum {
     margin-left: -4px;
+    line-height: 1.6em;
     background: white url("img/spielraum.svg") no-repeat;
     background-size: contain;
     background-position: center;
@@ -130,6 +133,7 @@ a#tag_spielraum {
 }
 a#tag_library {
     margin-left: -4px;
+    line-height: 1.6em;
     background: white url("img/library.svg") no-repeat;
     background-size: contain;
     background-position: center;
@@ -137,6 +141,7 @@ a#tag_library {
 }
 a#tag_networks {
     margin-left: -4px;
+    line-height: 1.6em;
     background: white url("img/networks.svg") no-repeat;
     background-size: contain;
     background-position: center;
@@ -144,6 +149,7 @@ a#tag_networks {
 }
 a#tag_wchon {
     margin-left: -4px;
+    line-height: 1.6em;
     background: white url("img/wchon.svg") no-repeat;
     background-size: contain;
     background-position: center;
