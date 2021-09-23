@@ -17,9 +17,11 @@
     <div class="preview">
 
     
-    <a href="{{x.get_absolute_url}}">
-        <img class="thumbnail" style="max-width: 100%" src="{{x.thumbnail.url}}"/>
-    </a>
+    <div>
+        <a href="{{x.get_absolute_url}}">
+           <img class="thumbnail" style="max-width: 100%" src="{{x.thumbnail.url}}"/>
+        </a>
+    </div>
     {% for tag in x.tags.all %}
     <a class="imagetag" href='{% url "story:story_by_tag" tag.slug %}' id="tag_{{tag.name}}">
         {{tag.name}}
