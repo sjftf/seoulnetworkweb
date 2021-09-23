@@ -1,6 +1,9 @@
 from pathlib import Path
 import os
 import dj_database_url
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,6 +33,9 @@ INSTALLED_APPS = [
     'story',
     'tinymce',
     'taggit',
+    'cloudinary', 
+    'django.contrib.staticfiles',   
+    'cloudinary_storage',      
 ]
 
 MIDDLEWARE = [
@@ -124,3 +130,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'images') #사용자가 업로드한 파일 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+CLOUDINARY_STORAGE = {
+             'CLOUD_NAME': 'hvwpxot45',
+             'API_KEY': '573622771356274',
+             'API_SECRET': 'zykQli5sOLvhyQSXknR3jxpeG2w'
+            }
+DEFAULT_FILE_STORAGE='cloudinary_storage.storage.MediaCloudinaryStorage'
