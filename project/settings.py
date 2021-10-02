@@ -30,6 +30,10 @@ INSTALLED_APPS = [
     'story',
     'tinymce',
     'taggit',
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary',
+
 ]
 
 MIDDLEWARE = [
@@ -124,3 +128,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #사용자가 업로드한 파일 �
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'hvbixqrk4',
+    'API_KEY': '374183134563369',
+    'API_SECRET': '20ciLB1kaE7PRLJARTDfcPpOYDY',
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
