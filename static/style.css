@@ -11,7 +11,9 @@
 	src: local('Pretendard Variable'), url('./woff2/PretendardVariable.woff2') format('woff2-variations');
 }
 
-body {font-family: 'Suisse', 'Pretendard Variable';}
+page {
+    font-family: 'Suisse', 'Pretendard Variable';
+}
 
 a:-webkit-any-link {text-decoration: none;}
 p {line-height: 1.5em;}
@@ -74,12 +76,10 @@ ul {padding-inline-start: 0px;
     background-color: #dddddd;
     width: 50vw;
     display: block;
-    font-family:'Suisse';
   }
 .postcontainer {
     width: 75vw;
     display: block;
-    font-family:'Suisse';
   }
 .notice{
     background-color: #F5B051;
