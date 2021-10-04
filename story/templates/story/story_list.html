@@ -8,37 +8,36 @@
 
 
 <div class="submenu">
-<div class="preview">
-<div class="notice">
-    현재 진행중인 프로그램을 비롯한 많은 마을소식에 주민 여러분의 많은 참가 부탁드립니다.
-</div>
-    
-    {% for x in story %}
-    <div class="preview">
+<div class="parent-preview">
 
     
+    {% for x in story %}
+    <div class="child-preview">
+        <hr>
+        <div class="date">{{x.publish}}</div>
+        <div class="cat-{{x.category.slug}}">{{x.category}}</div>
     <div>
         <a href="{{x.get_absolute_url}}">
            <img class="thumbnail" style="max-width: 100%" src="{{x.thumbnail.url}}"/>
         </a>
     </div>
+    <!---
     {% for tag in x.tags.all %}
-    <a class="imagetag" href='{% url "story:story_by_tag" tag.slug %}' id="tag_{{tag.name}}">
+    <a class="tag" href='{% url "story:story_by_tag" tag.slug %}' id="tag_{{tag.name}}">
         {{tag.name}}
     </a>
     {% if not forloop.last %}{% endif %}
-    {% endfor %}
+    {% endfor %}-->
     <a href="{{x.get_absolute_url}}"><h2>{{x.title}}</h2></a>
     <p>{{x.des}}</p>
-    <a class="moretext" href="{{x.get_absolute_url}}">더 알아보기</a></div>
+    </div>
     {% endfor %}
     
 </div>
-<hr>
-<h3 style="text-align: center;">{% include 'pagination.html' with page=story %}</h3>
+<hr style="margin-top: 50px;">
+<div>
+    <h3 style="text-align: center;">{% include 'pagination.html' with page=story %}</h3></div>
 
 </div>
 
-<div class="container">
-</div>
 {% endblock %}
