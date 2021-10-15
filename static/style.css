@@ -15,6 +15,8 @@
     .submenu { padding: 0px 0px 0px 0px; }    
 }
 
+body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard Variable';}
+
 a:-webkit-any-link {text-decoration: none;}
 p {font-weight: normal;
     font-size: 16px;
