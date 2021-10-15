@@ -29,12 +29,12 @@
 
     <div class="mainmenu">
           <ul>
-            {% for x in categories %}
             <li>
               <a href="/17/">슈필라움 소개</a>
+              {% for x in categories %}
               <a href="{{x.get_absolute_url}}">{{x.name}}</a>
+              {% endfor %}
             </li>
-            {% endfor %}
           </ul>
       </div>  
     </div>
