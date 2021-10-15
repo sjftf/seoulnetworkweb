@@ -1,8 +1,3 @@
-@font-face {
-    font-family:'Suisse';
-    src: url("{% static 'fonts/suisseintlcond-regular-webfont.woff' %}");
-  }   
-
   @font-face {
 	font-family: 'Pretendard Variable';
 	font-weight: 45 920;
@@ -147,6 +142,9 @@ ul {padding-inline-start: 0px;
 .postcontainer p{ padding: 0 15%; font-size: 1em;}
 
 @media screen and (max-width: 768px) {
+
+    body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard Variable';}
+
     .submenu{
         padding: 10px 3vw 10px 3vw;
     }
