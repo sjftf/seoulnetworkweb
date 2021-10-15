@@ -20,7 +20,7 @@ class Story(models.Model):
     body = HTMLField()
     thumbnail = models.ImageField(upload_to="story/media", blank=True)
     des = models.TextField()
-    publish = models.DateTimeField('date published',)
+    publish = models.DateTimeField('date published', blank=True)
     tags = TaggableManager()
     class Meta:
         ordering = ('-publish',)
