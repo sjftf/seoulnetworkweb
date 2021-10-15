@@ -138,7 +138,7 @@ ul {padding-inline-start: 0px;
     color: black;
 }
 .footer {
-    padding-bottom: 70px;
+    padding: 0px 3vw 10px 3vw;
 }
 
 
@@ -146,10 +146,14 @@ ul {padding-inline-start: 0px;
 
 @media screen and (max-width: 768px) {
     .submenu{
-        padding: 10px 5vw 10px 5vw;
+        padding: 10px 3vw 10px 3vw;
     }
     .parent-preview{
         flex-direction: column;
     } 
+    .postcontainer p {
+        padding: 0;
+    }
+
 }
 
