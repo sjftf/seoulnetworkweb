@@ -33,7 +33,7 @@
             <li>
               <a href="/17/">슈필라움 소개</a>
               {% for x in categories %}
-              <a href="{{x.get_absolute_url}}">{{x.name}}</a>
+              <a class="cat_{{x.name}}" href="{{x.get_absolute_url}}">{{x.name}}</a>
               {% endfor %}
             </li>
           </ul>
