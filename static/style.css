@@ -96,6 +96,10 @@ ul {padding-inline-start: 0px;
     display: inline;
 }
 
+.cat_인근도서관{background: #2997CD;}
+.cat_우리마을기록관{background: #F5B051;}
+.cat_현재프로그램{background: #48B9B1;}
+
 .submenu {
     padding: 10px 7vw 10px 7vw;
     display: block;
