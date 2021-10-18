@@ -20,6 +20,7 @@ class Story(models.Model):
     body = HTMLField()
     thumbnail = models.ImageField(upload_to="story/media", blank=True)
     des = models.TextField()
+    writer = models.CharField(max_length=150, blank=True, null=True)
     publish = models.DateField('date published', blank=True)
     tags = TaggableManager()
     class Meta:

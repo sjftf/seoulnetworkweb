@@ -14,22 +14,25 @@
     {% for x in story %}
     <div class="child-preview">
         <hr>
-        <div class="date">{{x.publish|date:"Y-m-d"}}</div>
-        <div class="cat-{{x.category.slug}}">{{x.category}}</div>
     <div>
         <a href="{{x.get_absolute_url}}">
            <img class="thumbnail" style="max-width: 100%" src="{{x.thumbnail.url}}"/>
         </a>
     </div>
-    <!---
-    {% for tag in x.tags.all %}
-    <a class="tag" href='{% url "story:story_by_tag" tag.slug %}' id="tag_{{tag.name}}">
-        {{tag.name}}
-    </a>
-    {% if not forloop.last %}{% endif %}
-    {% endfor %}-->
-    <a href="{{x.get_absolute_url}}"><h2>{{x.title}}</h2></a>
-    <p>{{x.des}}</p>
+    <div class="titlebox">
+        <div style="display: block;" class="cat-{{x.category.slug}}">{{x.category}}.</div>
+        <a style="display: block;" href="{{x.get_absolute_url}}"><h2>{{x.title}}</h2></a>
+    </div>
+    <p class="description">{{x.des}}</p>
+    <p class="writer">{{x.publish|date:"Y년 m월d일"}}, {{x.writer}} 기록</p>
+    <div class="tags">
+        {% for tag in x.tags.all %}
+        <a href='{% url "story:story_by_tag" tag.slug %}' class="tag_{{tag.name}}">
+            <span>{{tag.name}}<span>
+        </a>
+        {% if not forloop.last %}{% endif %}
+        {% endfor %}
+        </div>
     </div>
     {% endfor %}
     
