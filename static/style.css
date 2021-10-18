@@ -151,7 +151,7 @@ ul {padding-inline-start: 0px;
     display: block;
   }
 .postcontainer {
-    padding: 0 5% 100px 5%;
+    padding: 0 0 100px 0;
     width: 1080px;
     max-width: 90vw;
     display: block;
