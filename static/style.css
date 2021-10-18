@@ -116,6 +116,9 @@ ul {padding-inline-start: 0px;
     border-radius: 3px;
     margin-top: 25px;
     margin-bottom: 12px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 .parent-preview{
@@ -219,6 +222,11 @@ ul {padding-inline-start: 0px;
     } 
     .postcontainer p {
         padding: 0;
+    }
+    .thumbnail{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
     }
 
 }
