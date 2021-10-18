@@ -96,7 +96,7 @@ ul {padding-inline-start: 0px;
 }
 
 .submenu {
-    padding: 10px 15vw 10px 15vw;
+    padding: 10px 7vw 10px 7vw;
     display: block;
 }
 .container {
@@ -126,9 +126,9 @@ ul {padding-inline-start: 0px;
 }
 
 .child-preview{
-    flex: 1 0 30%;
-    max-width: 360px;
-    margin: 10px;
+    flex: 1 0 20%;
+    max-width: 300px;
+    margin: 10px 15px;
 }
 .tags{display: inline-flex;gap:4px}
 .tag {
@@ -213,6 +213,9 @@ ul {padding-inline-start: 0px;
     }
     .parent-preview{
         flex-direction: column;
+    }
+    .child-preview{
+        max-width: 100%;
     } 
     .postcontainer p {
         padding: 0;
