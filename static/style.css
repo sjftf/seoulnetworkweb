@@ -69,6 +69,48 @@ ul {padding-inline-start: 0px;
     color: #505050;
 }
 
+.cat-우리마을기록관 {
+    position: relative;
+    top: 58px;
+    left: 0px;
+    z-index: 99;
+    background: white;
+    width: fit-content;
+    padding: 6px 14px;
+    color: #F5B051;
+    font-weight: 600;
+    border: #F5B051 1px solid;
+    border-radius: 3px 0 12px 0px;
+}
+
+.cat-인근도서관 {
+    position: relative;
+    top: 58px;
+    left: 0px;
+    z-index: 99;
+    background: white;
+    width: fit-content;
+    padding: 6px 14px;
+    color: #2997CD;
+    font-weight: 600;
+    border: #2997CD 1px solid;
+    border-radius: 3px 0 12px 0px;
+}
+
+.cat-프로그램 {
+    position: relative;
+    top: 58px;
+    left: 0px;
+    z-index: 99;
+    background: white;
+    width: fit-content;
+    padding: 6px 14px;
+    color: #48B9B1;
+    font-weight: 600;
+    border: #48B9B1 1px solid;
+    border-radius: 3px 0 12px 0px;
+}
+
 .titlebox { display: inline-flex; align-items: center;gap:10px}
 
 .writer {font-size:14px; font-weight: 600;margin-top: -8px;}
