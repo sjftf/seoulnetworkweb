@@ -13,6 +13,7 @@
     
     {% for x in story %}
     <div class="child-preview">
+        <hr style="margin-bottom: -10px;">
     <div>
         <a href="{{x.get_absolute_url}}">
            <img class="thumbnail" style="max-width: 100%" src="{{x.thumbnail.url}}"/>
