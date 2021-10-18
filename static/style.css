@@ -1,27 +1,27 @@
   @font-face {
-	font-family: 'Pretendard Variable';
+	font-family: 'Pretendard';
 	font-weight: 45 920;
 	font-style: normal;
 	font-display: swap;
-	src: local('Pretendard Variable'), url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+	src: local('Pretendard'), url('./woff2/PretendardVariable.woff2') format('woff2-variations');
 }
 
 @media (max-width:567px) {
     .submenu { padding: 0px 0px 0px 0px; }    
 }
 
-body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard Variable';}
+body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard';}
 
 a:-webkit-any-link {text-decoration: none;}
 p {font-weight: normal;
     font-size: 16px;
     line-height: 160%;
     color: #000000;}
-.page {	font-family: 'Pretendard Variable';}
+.page {	font-family: 'Pretendard';}
 
 .pagination a {font-size: 16px; color:black; font-weight: 400;}
-.footer-1 {padding-bottom: 10px; font-family: 'Pretendard Variable'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #000000}
-.footer-2 {font-family: 'Pretendard Variable'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #505050}
+.footer-1 {padding-bottom: 10px; font-family: 'Pretendard'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #000000}
+.footer-2 {font-family: 'Pretendard'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #505050}
 h2{ font-weight: bold;
     font-size: 16px;
     line-height: 160%;
@@ -143,7 +143,7 @@ ul {padding-inline-start: 0px;
 
 @media screen and (max-width: 768px) {
 
-    body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard Variable';}
+    body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard';}
 
     .submenu{
         padding: 10px 3vw 10px 3vw;
