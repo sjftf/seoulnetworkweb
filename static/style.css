@@ -83,7 +83,7 @@ ul {padding-inline-start: 0px;
 
 .mainmenu{padding-top: 50px;}
 .mainmenu ul{display: flex;justify-content: center; flex-wrap: wrap;}
-.mainmenu li{margin: 5px 10px;}
+.mainmenu li{margin: 5px 10px; width: auto;}
 .mainmenu a:active{color: #F5B051;}
 .mainmenu a:hover{color: #F5B051;}
 .mainmenu a:target{color: #F5B051;}
@@ -92,7 +92,8 @@ ul {padding-inline-start: 0px;
     font-size: 18px;
     text-align: center;
     color: #505050;
-    padding-left:10px;
+    padding:6px;
+    display: inline;
 }
 
 .submenu {
@@ -228,6 +229,12 @@ ul {padding-inline-start: 0px;
         width: 100%;
         object-fit: cover;
     }
-
+    .mainmenu li{
+        width: 100%;
+    }
+    .mainmenu a{
+        display: block;
+    }
+    
 }
 
