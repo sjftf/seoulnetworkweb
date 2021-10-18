@@ -125,7 +125,7 @@ ul {padding-inline-start: 0px;
 
 .mainmenu{padding-top: 50px;}
 .mainmenu ul{display: flex;justify-content: center; flex-wrap: wrap;}
-.mainmenu li{margin: 5px 10px; width: auto;}
+.mainmenu li{width: auto;}
 .mainmenu a:active{color: #F5B051;}
 .mainmenu a:hover{color: #F5B051;}
 .mainmenu a:target{color: #F5B051;}
@@ -259,7 +259,7 @@ ul {padding-inline-start: 0px;
     body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard';}
 
     .submenu{
-        padding: 10px 3vw 10px 3vw;
+        padding: 10px 0;
     }
     .parent-preview{
         flex-direction: column;
@@ -277,6 +277,7 @@ ul {padding-inline-start: 0px;
     }
     .mainmenu li{
         width: 100%;
+
     }
     .mainmenu a{
         display: flex;
