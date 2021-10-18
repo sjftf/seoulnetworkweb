@@ -31,9 +31,14 @@
     <div class="mainmenu">
           <ul>
             <li>
-              <a class="cat_슈필라움소개" href="/17/">슈필라움 소개</a>
+              <a class="cat_슈필라움소개" href="/17/">슈필라움 소개
+                <img class="arrow" src="{% static 'img/arrow.svg' %}">
+              </a>
               {% for x in categories %}
-              <a class="cat_{{x.name}}" href="{{x.get_absolute_url}}">{{x.name}}</a>
+              <a class="cat_{{x.name}}" href="{{x.get_absolute_url}}">
+                {{x.name}}
+                <img class="arrow" src="{% static 'img/arrow.svg' %}">
+              </a>
               {% endfor %}
             </li>
           </ul>

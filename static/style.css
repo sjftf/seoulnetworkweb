@@ -90,10 +90,10 @@ ul {padding-inline-start: 0px;
 .mainmenu a{
     font-size: 16px;
     text-align: center;
-    color: #ffffff;
     padding:8px;
     display: inline;
     margin-bottom: 4px;
+    margin-right: 10px;
 }
 .cat_슈필라움소개 {border: 1px solid #0063A6; color: #0063A6}
 .cat_인근도서관{border: 1px solid #2997CD; color: #2997CD}
@@ -116,8 +116,12 @@ ul {padding-inline-start: 0px;
     display: block;
   }
 
+.arrow{
+    height: 12px;
+    display: none;
+}
 
-  .thumbnail{
+.thumbnail{
     border-radius: 3px;
     margin-top: 25px;
     margin-bottom: 12px;
@@ -138,6 +142,7 @@ ul {padding-inline-start: 0px;
     max-width: 300px;
     margin: 10px 15px;
 }
+
 .tags{display: inline-flex;gap:4px}
 .tag {
     font-size: 16px;
@@ -232,8 +237,13 @@ ul {padding-inline-start: 0px;
         width: 100%;
     }
     .mainmenu a{
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0;
     }
-    
+    .arrow{
+        display: inline;
+    }
 }
 
