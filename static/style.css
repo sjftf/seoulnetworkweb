@@ -88,12 +88,12 @@ ul {padding-inline-start: 0px;
 .mainmenu a:hover{color: #F5B051;}
 .mainmenu a:target{color: #F5B051;}
 .mainmenu a{
-    font-weight: bold;
     font-size: 16px;
     text-align: center;
     color: #ffffff;
     padding:10px;
     display: inline;
+    margin-bottom: 4px;
 }
 .cat_슈필라움소개 {background: #0063A6;}
 .cat_인근도서관{background: #2997CD;}
