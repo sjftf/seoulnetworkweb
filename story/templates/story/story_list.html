@@ -22,7 +22,7 @@
     </div>
     <div href="{{x.get_absolute_url}}"><h2 style="display:inline">{{x.title}}</h2></div>
     <p class="description">{{x.des}}</p>
-    <p class="writer">{{x.publish|date:"Y년 m월 d일"}}, {{x.writer}} 기록</p>
+    <p class="writer">{{x.publish|date:"Y년 m월d일"}}, {{x.writer}} 기록</p>
     <div class="tags">
         {% for tag in x.tags.all %}
         <a href='{% url "story:story_by_tag" tag.slug %}' class="tag_{{tag.name}}">

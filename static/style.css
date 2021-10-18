@@ -68,6 +68,12 @@ ul {padding-inline-start: 0px;
     color: #404040;
 }
 
+.macu {
+    text-align: center;
+}
+.macu .logo {max-width: 70px;
+padding:30px}
+
 .cat-우리마을기록관 {
     position: relative;
     top: 58.5px;
@@ -151,7 +157,7 @@ ul {padding-inline-start: 0px;
     display: block;
   }
 .postcontainer {
-    padding: 0 0 100px 0;
+    padding: 0 0 30px 0;
     width: 1080px;
     max-width: 90vw;
     display: block;
