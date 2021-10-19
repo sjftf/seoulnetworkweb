@@ -148,9 +148,9 @@ padding:30px}
 .cat_프로그램{border: 1px solid #48B9B1; color: #48B9B1}
 
 .cat_슈필라움소개:hover {border: 1px solid #0063A6; background-color: #0063A6; color:white;}
-.cat_인근도서관{border: 1px solid #2997CD; background-color: #2997CD; color:white;}
-.cat_우리마을기록관{border: 1px solid #F5B051; background-color: #F5B051; color:white;}
-.cat_프로그램{border: 1px solid #48B9B1; background-color: #48B9B1; color:white;}
+.cat_인근도서관:hover {border: 1px solid #2997CD; background-color: #2997CD; color:white;}
+.cat_우리마을기록관:hover {border: 1px solid #F5B051; background-color: #F5B051; color:white;}
+.cat_프로그램:hover {border: 1px solid #48B9B1; background-color: #48B9B1; color:white;}
 
 .submenu {
     padding: 10px 7vw 10px 7vw;
