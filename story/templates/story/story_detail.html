@@ -5,12 +5,10 @@
 
 {% block body %}
     <div class='postcontainer'>
-    <hr>
-    <p style="word-break: keep-all; text-align: center; font-weight: bold; font-size: 30px; color: #404040; line-height: 160%;">{{story.title}}</p>
-    <p style="word-break: keep-all;text-align: center; font-weight: normal; font-size: 16px; color: #404040; line-height: 0%;">{{story.publish}}</p>
+    <p style="word-break: keep-all;text-align: center; font-weight: bold; font-size: 30px; color: #404040; line-height: 160%;">{{story.title}}</p>
     <p style="word-break: keep-all;text-align: center; font-weight: bold; font-size: 16px; color: #404040;">{{story.category}}</p>
-    <p style="word-break: keep-all;font-weight: normal; font-size: 18px; line-height: 160%; padding-bottom: 30px;">{{story.des}}</p>
+    <p style="word-break: keep-all;text-align: center; font-weight: normal; font-size: 16px; color: #404040; line-height: 0%;">{{story.publish}}</p>
+    <p style="word-break: keep-all;text-align: center; font-weight: normal; font-size: 16px; line-height: 160%; padding-bottom: 30px;">{{story.des}}</p>
     <p class="lead">{{story.body|safe}}</p>
-    <hr>
 </div>
 {% endblock %}

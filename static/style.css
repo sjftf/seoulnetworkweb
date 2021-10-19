@@ -128,7 +128,7 @@ padding:30px}
 .creditbox {display: inline-flex;}
 .date {font-weight: normal; font-size: 16px; color: #505050; padding-bottom: 5px;}
 
-.mainmenu{padding-top: 50px; padding-bottom: 30px;}
+.mainmenu{padding-top: 50px; margin-bottom: 30px;}
 .mainmenu ul{display: flex;justify-content: center; flex-wrap: wrap;}
 .mainmenu li{width: auto;}
 .mainmenu a{
@@ -188,7 +188,7 @@ padding:30px}
 .child-preview{
     flex: 1 0 20%;
     max-width: 300px;
-    margin: 10px 15px;
+    margin: 10px 10px;
 }
 
 .tags{display: inline-flex;gap:4px}
@@ -315,5 +315,7 @@ padding:30px}
     .arrow{
         display: inline;
     }
+    .mainmenu{margin-bottom: -30px;}
+
 }
 
