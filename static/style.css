@@ -27,6 +27,7 @@ h2{ font-weight: bold;
     line-height: 160%;
     color: #000000;    
 }
+hr { height: 1px; background-color: #000; border: 0 none; }
 hr {margin-bottom: 20px;}
 h2 a{
     font-weight: bold;
