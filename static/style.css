@@ -294,6 +294,7 @@ padding:30px}
 .footer {
     background: #0063A6;
     padding: 50px 3vw 50px 3vw;
+    margin: -5px -8px;
 }
 
 .postcontainer p{ padding: 0 15%; font-size: 1em;}
