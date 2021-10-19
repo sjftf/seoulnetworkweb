@@ -21,7 +21,7 @@ p {font-weight: normal;
 
 .pagination a {font-size: 16px; color:black; font-weight: 400;}
 .footer-1 {padding-bottom: 10px; font-family: 'Pretendard'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #000000}
-.footer-2 {font-family: 'Pretendard'; font-weight: normal; font-size: 14px; line-height: 160%; text-align: center; color: #505050}
+.footer-2 {padding: 0 20%; font-family: 'Pretendard'; font-weight: normal; font-size: 14px; line-height: 160%; text-align: center; color: #505050}
 h2{ font-weight: bold;
     font-size: 16px;
     line-height: 160%;
@@ -76,7 +76,7 @@ padding:30px}
 
 .cat-우리마을기록관 {
     position: relative;
-    top: 58px;
+    top: 33px;
     left: 0px;
     z-index: 99;
     background: #F5B051;
@@ -90,7 +90,7 @@ padding:30px}
 
 .cat-인근도서관 {
     position: relative;
-    top: 58px;
+    top: 33px;
     left: 0px;
     z-index: 99;
     background: #2997CD;
@@ -104,7 +104,7 @@ padding:30px}
 
 .cat-프로그램 {
     position: relative;
-    top: 58px;
+    top: 33px;
     left: 0px;
     z-index: 99;
     background: #48B9B1;
@@ -128,7 +128,7 @@ padding:30px}
 .creditbox {display: inline-flex;}
 .date {font-weight: normal; font-size: 16px; color: #505050; padding-bottom: 5px;}
 
-.mainmenu{padding-top: 50px;}
+.mainmenu{padding-top: 50px; padding-bottom: 30px;}
 .mainmenu ul{display: flex;justify-content: center; flex-wrap: wrap;}
 .mainmenu li{width: auto;}
 .mainmenu a{
@@ -172,7 +172,6 @@ padding:30px}
 
 .thumbnail{
     border-radius: 3px;
-    margin-top: 25px;
     margin-bottom: 12px;
     height: auto;
     width: 100%;
@@ -285,6 +284,7 @@ padding:30px}
 
     body, footer, p, h1, h2, page, header, a {font-family: 'Pretendard';}
 
+    .footer-2 {padding: 0;}
     .submenu{
         padding: 10px 0;
     }
