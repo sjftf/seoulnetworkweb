@@ -20,8 +20,24 @@ p {font-weight: normal;
 .page {	font-family: 'Pretendard';}
 
 .pagination a {font-size: 16px; color:black; font-weight: 400;}
-.footer-1 {padding-bottom: 10px; font-family: 'Pretendard'; font-weight: normal; font-size: 16px; line-height: 160%; text-align: center; color: #000000}
-.footer-2 {padding: 0 20%; font-family: 'Pretendard'; font-weight: normal; font-size: 14px; line-height: 160%; text-align: center; color: #505050}
+.footer-1 {
+    padding-bottom: 10px;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: white;
+}
+.footer-2 {
+    padding: 0 20%;
+    font-family: 'Pretendard';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: white;
+}
 h2{ font-weight: bold;
     font-size: 16px;
     line-height: 160%;
@@ -276,7 +292,8 @@ padding:30px}
     color: black;
 }
 .footer {
-    padding: 0px 3vw 100px 3vw;
+    border-top: 1px solid #505050;
+    padding: 50px 3vw 50px 3vw;
 }
 
 .postcontainer p{ padding: 0 15%; font-size: 1em;}
