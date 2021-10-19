@@ -131,9 +131,6 @@ padding:30px}
 .mainmenu{padding-top: 50px;}
 .mainmenu ul{display: flex;justify-content: center; flex-wrap: wrap;}
 .mainmenu li{width: auto;}
-.mainmenu a:active{color: #F5B051;}
-.mainmenu a:hover{color: #F5B051;}
-.mainmenu a:target{color: #F5B051;}
 .mainmenu a{
     font-size: 16px;
     text-align: center;
@@ -203,53 +200,73 @@ padding:30px}
 
 .tag_interview{
     color:#2997CD;
-    padding: 2px 8px;
+    padding: 4px 6px;
     font-size: 16px;
     border: 1px solid #2997CD;
     width: fit-content;
 }
 .tag_interview span{display:none;}
 .tag_interview:after {content:"인터뷰";}
+.tag_interview:hover{
+    background-color: #2997CD;
+    color:white;
+}
 
 .tag_mybook{
     color:#1CA783;
-    padding: 2px 8px;
+    padding: 4px 6px;
     font-size: 16px;
     border: 1px solid #1CA783;
     width: fit-content;
 }
 .tag_mybook span{display:none;}
 .tag_mybook:after {content:"인생서가";}
+.tag_mybook:hover{
+    background-color: #1CA783;
+    color:white;
+}
 
 .tag_jeonnong{
     color:#F5B051;
-    padding: 2px 8px;
+    padding: 4px 6px;
     font-size: 16px;
     border: 1px solid #F5B051;
     width: fit-content;
 }
 .tag_jeonnong span{display:none;}
 .tag_jeonnong:after {content:"전농동";}
+.tag_jeonnong:hover{
+    background-color: #F5B051;
+    color:white;
+}
 
 .tag_about{
     color:#DB3B52;
-    padding: 2px 8px;
+    padding: 4px 6px;
     font-size: 16px;
     border: 1px solid #DB3B52;
     width: fit-content;
 }
 .tag_about span{display:none;}
 .tag_about:after {content:"소개";}
+.tag_about:hover{
+    background-color: #DB3B52;
+    color:white;
+}
 
 .tag_library{
     color:#48B9B1;
-    padding: 2px 8px;
+    padding: 4px 6px;
     font-size: 16px;
     border: 1px solid #48B9B1;
     width: fit-content;
 }
 .tag_library span{display:none;}
 .tag_library:after {content:"도서관";}
+.tag_library:hover{
+    background-color: #48B9B1;
+    color:white;
+}
 
 .moretext{
     padding: 5px 7px 4px 7px;
