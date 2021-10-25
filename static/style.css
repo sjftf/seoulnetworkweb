@@ -291,9 +291,9 @@ padding:30px}
     border: 1px solid #212322;
     width: fit-content;
 }
-.tag_festival span{display:none;}
-.tag_festival:after {content:"사서교육";}
-.tag_festival:hover{
+.tag_librarian span{display:none;}
+.tag_librarian:after {content:"사서교육";}
+.tag_librarian:hover{
     background-color: #212322;
     color:white;
 }
