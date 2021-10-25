@@ -208,7 +208,7 @@ padding:30px}
     margin: 10px 10px;
 }
 
-.tags{display: inline-flex;gap:4px}
+.tags{display: inline-flex;gap:4px;flex-wrap: wrap}
 .tag {
     font-size: 16px;
     margin-right:5px;
