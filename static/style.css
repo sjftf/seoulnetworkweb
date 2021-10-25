@@ -284,6 +284,76 @@ padding:30px}
     color:white;
 }
 
+.tag_librarian{
+    color:#212322;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #212322;
+    width: fit-content;
+}
+.tag_festival span{display:none;}
+.tag_festival:after {content:"사서교육";}
+.tag_festival:hover{
+    background-color: #212322;
+    color:white;
+}
+
+.tag_festival{
+    color:#0063A6;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #0063A6;
+    width: fit-content;
+}
+.tag_festival span{display:none;}
+.tag_festival:after {content:"북페스티벌";}
+.tag_festival:hover{
+    background-color: #0063A6;
+    color:white;
+}
+
+.tag_peoplebook{
+    color:#DC9A6E;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #DC9A6E;
+    width: fit-content;
+}
+.tag_peoplebook span{display:none;}
+.tag_peoplebook:after {content:"사람책";}
+.tag_peoplebook:hover{
+    background-color: #DC9A6E;
+    color:white;
+}
+
+.tag_explore{
+    color:#6965A9;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #6965A9;
+    width: fit-content;
+}
+.tag_explore span{display:none;}
+.tag_explore:after {content:"탐방";}
+.tag_explore:hover{
+    background-color: #6965A9;
+    color:white;
+}
+
+.tag_bookclub{
+    color:#1CA783;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #1CA783;
+    width: fit-content;
+}
+.tag_bookclub span{display:none;}
+.tag_bookclub:after {content:"독서동아리";}
+.tag_bookclub:hover{
+    background-color: #1CA783;
+    color:white;
+}
+
 .moretext{
     padding: 5px 7px 4px 7px;
     font-size: 0.9em;
