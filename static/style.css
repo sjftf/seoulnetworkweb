@@ -242,6 +242,34 @@ padding:30px}
     color:white;
 }
 
+.tag_lecture{
+    color:#2997CD;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #2997CD;
+    width: fit-content;
+}
+.tag_lecture span{display:none;}
+.tag_lecture:after {content:"강의";}
+.tag_lecture:hover{
+    background-color: #2997CD;
+    color:white;
+}
+
+.tag_review{
+    color:#1CA783;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #1CA783;
+    width: fit-content;
+}
+.tag_review span{display:none;}
+.tag_review:after {content:"리뷰";}
+.tag_review:hover{
+    background-color: #1CA783;
+    color:white;
+}
+
 .tag_mybook{
     color:#1CA783;
     padding: 4px 6px;
