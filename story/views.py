@@ -8,7 +8,7 @@ def story_list(request,category_slug = None, tag_slug = None):
     category = None
     categories = Category.objects.all()
     story = Story.objects.all()
-    paginator = Paginator(story,9)
+    paginator = Paginator(story,12)
     page = request.GET.get('page')
     tag = None
     try:
@@ -21,7 +21,7 @@ def story_list(request,category_slug = None, tag_slug = None):
         story = Story.objects.all()
         category = get_object_or_404(Category,slug=category_slug)
         story = story.filter(category=category)
-        paginator = Paginator(story,9)
+        paginator = Paginator(story,12)
         page = request.GET.get('page')
         try:
             story = paginator.page(page)
@@ -32,7 +32,7 @@ def story_list(request,category_slug = None, tag_slug = None):
     if tag_slug:
         tag = get_object_or_404(Tag,slug=tag_slug)
         story = Story.objects.filter(tags__in=[tag])
-        paginator = Paginator(story,9)
+        paginator = Paginator(story,12)
         page = request.GET.get('page')
         try:
             story = paginator.page(page)
