@@ -242,6 +242,20 @@ padding:30px}
     color:white;
 }
 
+.tag_Hwigyeong{
+    color:#DB3B52;
+    padding: 4px 6px;
+    font-size: 16px;
+    border: 1px solid #DB3B52;
+    width: fit-content;
+}
+.tag_Hwigyeong span{display:none;}
+.tag_Hwigyeong:after {content:"휘경동";}
+.tag_Hwigyeong:hover{
+    background-color: #DB3B52;
+    color:white;
+}
+
 .tag_lecture{
     color:#2997CD;
     padding: 4px 6px;
